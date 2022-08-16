@@ -65,7 +65,7 @@ printf("Enter Your Name, a number, Character, value of pi, CGPA(press Enter afte
 //for strings this scanf detects until first space then it will leave the remaining text so use fgets
 fgets(Name,22,stdin);
 
-//don't forget to use & before variable in scanf
+//don not forget to use & before variable in scanf
 scanf("%d %c %f %lf",&number,&letter,&CGPA,&value_of_pi);
 
 printf("Your Name:%sNumber:%d Letter:%c CGPA:%f Value of pi:%lf ",Name,number,letter,CGPA,value_of_pi);
