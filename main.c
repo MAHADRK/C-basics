@@ -13,6 +13,7 @@ comments
 int main()
 
 {
+
 //simple print statement
 printf("Aslam u alikum world! \n");
 
@@ -63,12 +64,15 @@ char Name[22];
 printf("Enter Your Name, a number, Character, value of pi, CGPA(press Enter after every input): ");
 
 //for strings this scanf detects until first space then it will leave the remaining text so use fgets
+// using fgets before scanf does not goto fegets when calls before and program ends there
 fgets(Name,22,stdin);
 
 //don not forget to use & before variable in scanf
 scanf("%d %c %f %lf",&number,&letter,&CGPA,&value_of_pi);
 
 printf("Your Name:%sNumber:%d Letter:%c CGPA:%f Value of pi:%lf ",Name,number,letter,CGPA,value_of_pi);
+
+
 
 
 return 0;
