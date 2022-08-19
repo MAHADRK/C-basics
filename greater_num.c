@@ -5,20 +5,22 @@
 
 float greater_num(float num1,float num2,float num3)
 {
+    float result;
     // find weather num1 is greater for both given numbers
     if (num1>= num2 && num1>=num3)
     {
-    return num1;
+    result num1;
     }
     else if (num2>=num3 && num2>=num3)
     {
-        return num2;
+        result num2;
     }
     else
         {
 
-     return num3;
+     result num3;
     }
+    return result;
 }
 
 
